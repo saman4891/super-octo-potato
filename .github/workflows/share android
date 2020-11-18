@@ -1,0 +1,51 @@
+W/BiChannelGoogleApi( 5360): [FirebaseAuth: ] getGoogleApiForMethod() returned Gms: com.google.firebase.auth.api.internal.zzak@cdea43d
+W/BiChannelGoogleApi( 5360): [FirebaseAuth: ] getGoogleApiForMethod() returned Gms: com.google.firebase.auth.api.internal.zzak@cdea43d
+E/JavaBinder( 5360): *** Uncaught remote exception!  (Exceptions are not yet supported across processes.)
+E/JavaBinder( 5360): java.lang.NoClassDefFoundError: Failed resolution of: Landroid/support/v4/util/ArrayMap;
+E/JavaBinder( 5360): 	at com.google.firebase.auth.internal.zzam.zzc(Unknown Source:22)
+E/JavaBinder( 5360): 	at com.google.firebase.auth.internal.zzam.zzde(Unknown Source:17)
+E/JavaBinder( 5360): 	at com.google.firebase.auth.internal.zzam.zzdd(Unknown Source:8)
+E/JavaBinder( 5360): 	at com.google.firebase.auth.internal.zzan.zzdf(Unknown Source:1)
+E/JavaBinder( 5360): 	at com.google.firebase.auth.internal.zzm.isAnonymous(Unknown Source:47)
+E/JavaBinder( 5360): 	at com.google.firebase.auth.internal.zzat.zzi(Unknown Source:57)
+E/JavaBinder( 5360): 	at com.google.firebase.auth.internal.zzat.zzg(Unknown Source:10)
+E/JavaBinder( 5360): 	at com.google.firebase.auth.FirebaseAuth.zza(Unknown Source:62)
+E/JavaBinder( 5360): 	at com.google.firebase.auth.FirebaseAuth$zzb.zza(Unknown Source:5)
+E/JavaBinder( 5360): 	at com.google.firebase.auth.api.internal.zzcr.zzdx(Unknown Source:15)
+E/JavaBinder( 5360): 	at com.google.firebase.auth.api.internal.zzen.zzen(Unknown Source:35)
+E/JavaBinder( 5360): 	at com.google.firebase.auth.api.internal.zzen.zza(Unknown Source:41)
+E/JavaBinder( 5360): 	at com.google.firebase.auth.api.internal.zzep.zza(Unknown Source:9)
+E/JavaBinder( 5360): 	at com.google.firebase.auth.api.internal.zzdx.dispatchTransaction(Unknown Source:9)
+E/JavaBinder( 5360): 	at com.google.android.gms.internal.firebase_auth.zza.onTransact(Unknown Source:13)
+E/JavaBinder( 5360): 	at android.os.Binder.execTransact(Binder.java:731)
+E/JavaBinder( 5360): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.support.v4.util.ArrayMap" on path: DexPathList[[zip file "/data/app/com.medicalapplicationsas.mysurgery-AtDtEiuicpo3F3bau4fFYg==/base.apk"],nativeLibraryDirectories=[/data/app/com.medicalapplicationsas.mysurgery-AtDtEiuicpo3F3bau4fFYg==/lib/x86, /data/app/com.medicalapplicationsas.mysurgery-AtDtEiuicpo3F3bau4fFYg==/base.apk!/lib/x86, /system/lib]]
+E/JavaBinder( 5360): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+E/JavaBinder( 5360): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+E/JavaBinder( 5360): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+E/JavaBinder( 5360): 	... 16 more
+E/AndroidRuntime( 5360): FATAL EXCEPTION: Binder:5360_4
+E/AndroidRuntime( 5360): Process: com.medicalapplicationsas.mysurgery, PID: 5360
+E/AndroidRuntime( 5360): java.lang.NoClassDefFoundError: Failed resolution of: Landroid/support/v4/util/ArrayMap;
+E/AndroidRuntime( 5360): 	at com.google.firebase.auth.internal.zzam.zzc(Unknown Source:22)
+E/AndroidRuntime( 5360): 	at com.google.firebase.auth.internal.zzam.zzde(Unknown Source:17)
+E/AndroidRuntime( 5360): 	at com.google.firebase.auth.internal.zzam.zzdd(Unknown Source:8)
+E/AndroidRuntime( 5360): 	at com.google.firebase.auth.internal.zzan.zzdf(Unknown Source:1)
+E/AndroidRuntime( 5360): 	at com.google.firebase.auth.internal.zzm.isAnonymous(Unknown Source:47)
+E/AndroidRuntime( 5360): 	at com.google.firebase.auth.internal.zzat.zzi(Unknown Source:57)
+E/AndroidRuntime( 5360): 	at com.google.firebase.auth.internal.zzat.zzg(Unknown Source:10)
+E/AndroidRuntime( 5360): 	at com.google.firebase.auth.FirebaseAuth.zza(Unknown Source:62)
+E/AndroidRuntime( 5360): 	at com.google.firebase.auth.FirebaseAuth$zzb.zza(Unknown Source:5)
+E/AndroidRuntime( 5360): 	at com.google.firebase.auth.api.internal.zzcr.zzdx(Unknown Source:15)
+E/AndroidRuntime( 5360): 	at com.google.firebase.auth.api.internal.zzen.zzen(Unknown Source:35)
+E/AndroidRuntime( 5360): 	at com.google.firebase.auth.api.internal.zzen.zza(Unknown Source:41)
+E/AndroidRuntime( 5360): 	at com.google.firebase.auth.api.internal.zzep.zza(Unknown Source:9)
+E/AndroidRuntime( 5360): 	at com.google.firebase.auth.api.internal.zzdx.dispatchTransaction(Unknown Source:9)
+E/AndroidRuntime( 5360): 	at com.google.android.gms.internal.firebase_auth.zza.onTransact(Unknown Source:13)
+E/AndroidRuntime( 5360): 	at android.os.Binder.execTransact(Binder.java:731)
+E/AndroidRuntime( 5360): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.support.v4.util.ArrayMap" on path: DexPathList[[zip file "/data/app/com.medicalapplicationsas.mysurgery-AtDtEiuicpo3F3bau4fFYg==/base.apk"],nativeLibraryDirectories=[/data/app/com.medicalapplicationsas.mysurgery-AtDtEiuicpo3F3bau4fFYg==/lib/x86, /data/app/com.medicalapplicationsas.mysurgery-AtDtEiuicpo3F3bau4fFYg==/base.apk!/lib/x86, /system/lib]]
+E/AndroidRuntime( 5360): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+E/AndroidRuntime( 5360): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+E/AndroidRuntime( 5360): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+E/AndroidRuntime( 5360): 	... 16 more
+I/Process ( 5360): Sending signal. PID: 5360 SIG: 9
+Lost connection to device.
